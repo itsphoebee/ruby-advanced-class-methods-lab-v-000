@@ -5,7 +5,7 @@ class Song
   def self.create         #creates an instance of itself - instance of class Song
     song = self.new       #initializes a song
     self.all << song      #calls class method to save it to class variable
-    song                  # eturns the song
+    song                  #returns the song
   end
 
   def self.new_by_name(string)
