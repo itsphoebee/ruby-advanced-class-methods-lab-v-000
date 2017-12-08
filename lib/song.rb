@@ -2,9 +2,9 @@ class Song
   attr_accessor :name, :artist_name
   @@all = []
 
-  def self.create
-    song = self.new
-    self.all << song
+  def self.create         #creates an instance of itself - instance of class Song
+    song = self.new       #initializes a song
+    self.all << song      #calls class method to save it to class variable
     song
   end
 
