@@ -8,7 +8,7 @@ class Song
     song                  #returns the song
   end
 
-  def self.new_by_name(string)    
+  def self.new_by_name(string)
     song = self.create
     song.name = string
     song
